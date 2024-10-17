@@ -3,83 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuil</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+
 </head>
 <body>
-    <header class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
-        <h1 class="text-xl font-bold">Mon Portfolio</h1>
+    <header class="bg-blue-600 text-white py-4 px-6 flex justify-between items-center">
+        <div class="text-2xl font-bold">Technologie et innovation</div>
         <nav>
-          <ul class="flex space-x-6">
-            <li><a href="#accueil" class="hover:text-gray-400">Accueil</a></li>
-            <li><a href="#projets" class="hover:text-gray-400">Projets</a></li>
-            <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+          <ul class="flex space-x-4">
+            <li><a href="#articles-vedettes" class="hover:text-gray-300">Articles vedettes</a></li>
+            <li><a href="#categories" class="hover:text-gray-300">Catégories</a></li>
+            <li><a href="#recents" class="hover:text-gray-300">Articles récents</a></li>
           </ul>
         </nav>
-      </header>
-      <section id="accueil" class="bg-cover bg-center h-screen text-center text-white" style="background-image: url('path-to-image.jpg');">
-        <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
-          <h2 class="text-4xl font-bold mb-4">Bonjour, je suis Barhoumi Omar</h2>
-          <p class="text-lg">Développeur web passionné par la création de sites modernes et réactifs.</p>
-        </div>
-      </section>
-      <section id="skills" class="py-12 bg-gray-100">
-        <h3 class="text-3xl font-bold text-center mb-8">Mes Compétences</h3>
-        <div class="flex flex-wrap justify-center gap-8">
-          <div class="bg-white p-6 shadow-md rounded-lg">
-            <h4 class="text-xl font-bold mb-2">HTML & CSS</h4>
-            <p>Création de pages web structurées avec des designs modernes.</p>
-          </div>
-          <div class="bg-white p-6 shadow-md rounded-lg">
-            <h4 class="text-xl font-bold mb-2">JavaScript</h4>
-            <p>Développement d'applications interactives et dynamiques.</p>
-          </div>
-          <div class="bg-white p-6 shadow-md rounded-lg">
-            <h4 class="text-xl font-bold mb-2">React</h4>
-            <p>Construction de composants réactifs pour des interfaces utilisateur performantes.</p>
-          </div>
-        </div>
-      </section>
-      <section id="projets" class="py-12 bg-white">
-        <h3 class="text-3xl font-bold text-center mb-8">Mes Projets</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-            <img src="project1.jpg" alt="Projet 1" class="rounded mb-4">
-            <h4 class="text-xl font-bold mb-2">Projet 1</h4>
-            <p>Une brève description du projet, expliquant son but et les technologies utilisées.</p>
-          </div>
-          <!-- Répéter pour les autres projets -->
-        </div>
-      </section>
-      <section id="contact" class="py-12 bg-gray-100">
-        <h3 class="text-3xl font-bold text-center mb-8">Contactez-moi</h3>
-        <form class="max-w-lg mx-auto bg-white p-8 shadow-lg rounded-lg">
-          <div class="mb-4">
-            <label for="name" class="block text-gray-700 font-bold mb-2">Nom</label>
-            <input type="text" id="name" class="w-full p-3 border rounded-lg" placeholder="Votre nom">
-          </div>
-          <div class="mb-4">
-            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
-            <input type="email" id="email" class="w-full p-3 border rounded-lg" placeholder="Votre adresse email">
-          </div>
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
-            <textarea id="message" rows="5" class="w-full p-3 border rounded-lg" placeholder="Votre message"></textarea>
-          </div>
-          <button type="submit" class="bg-blue-500 text-white p-3 rounded-lg w-full">Envoyer</button>
-        </form>
-      </section>
-      <footer class="bg-gray-800 text-white py-6">
-        <div class="container mx-auto flex justify-between items-center">
-          <p>&copy; 2024 Votre Nom. Tous droits réservés.</p>
-          <div class="flex space-x-6">
-            <a href="#" class="hover:text-gray-400"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </footer>
-      
-      
+        </header>
+        <section id="articles-vedettes" class="py-12 bg-gray-100">
+            <h2 class="text-3xl font-bold text-center mb-8">Qu’est-ce qu’une innovation ?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+             
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="article1.jpeg" alt="Article 1" class="rounded mb-4">
+                <h3 class="text-xl font-bold mb-2">La 5G : Accélérer l’Ère du Tout Connecté</h3>
+                <p class="text-gray-700">Free a annoncé mercredi le lancement d’une offre grand public de 5G « standalone », qui ne s’appuiera plus sur l’infrastructure technique vieillissante de la 4G. Les autres opérateurs devraient aussi se lancer dans les prochains mois.</p>
+              </div>
+            </div>
+          </section>
+          <section id="categories" class="py-12 bg-white">
+            <h2 class="text-3xl font-bold text-center mb-8">Catégories</h2>
+            <div class="flex justify-center gap-4">
+              <span class="bg-blue-500 text-white py-2 px-4 rounded-full text-sm">TechNova</span>
+              <span class="bg-green-500 text-white py-2 px-4 rounded-full text-sm">GeekSpot</span>
+              <span class="bg-purple-500 text-white py-2 px-4 rounded-full text-sm">DigitalPulse</span>
+              <span class="bg-red-500 text-white py-2 px-4 rounded-full text-sm">InnoBytes</span>
+            </div>
+          </section>
+          
+          <section id="recents" class="py-12 bg-gray-100">
+            <h2 class="text-3xl font-bold text-center mb-8">Articles Récents</h2>
+            <div class="max-w-4xl mx-auto">
+              <div class="border-b py-4">
+                <h4 class="text-xl font-bold">La 5G : Accélérer l’Ère du Tout Connecté</h4>
+                <p class="text-sm text-gray-500">Publié le 17 octobre 2024</p>
+              </div>
+              <div class="border-b py-4">
+                <h4 class="text-xl font-bold">Huawei reste bien présent en France, malgré son interdiction dans la 5G</h4>
+                <p class="text-sm text-gray-500">Publié le 9 octobre 2024</p>
+              </div>
+            </div>
+            
+          </section>
+          <section id="newsletter" class="py-12 bg-white text-center">
+            <h2 class="text-3xl font-bold mb-8">Abonnez-vous à notre newsletter</h2>
+            <form class="max-w-lg mx-auto bg-gray-100 p-6 rounded-lg shadow-md">
+              <input type="email" placeholder="Votre email" class="w-full p-3 mb-4 border rounded-lg">
+              <button type="submit" class="bg-blue-500 text-white p-3 rounded-lg w-full">S'abonner</button>
+            </form>
+          </section>
+          <footer class="bg-blue-600 text-white py-6">
+            <div class="container mx-auto flex justify-between items-center">
+              <p>&copy; 2024 Blog. Tous droits réservés.</p>
+              <div class="flex space-x-6">
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </footer>
+                              
+                          
 </body>
 </html>
